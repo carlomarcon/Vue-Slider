@@ -74,5 +74,20 @@ createApp({
         this.slideIndex = 4;
       }
     },
+    slide1: function () {
+      this.slideIndex = 0;
+    },
+    slide2: function () {
+      this.slideIndex = 1;
+    },
+    slide3: function () {
+      this.slideIndex = 2;
+    },
+    slide4: function () {
+      this.slideIndex = 3;
+    },
+    slide5: function () {
+      this.slideIndex = 4;
+    },
   },
 }).mount("#app");
